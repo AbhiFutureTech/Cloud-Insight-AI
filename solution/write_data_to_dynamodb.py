@@ -2,7 +2,7 @@
 """
     Lambda function that decodes and writes data from your portfolio website to your DynamoDB database.
 
-    Author: Explore Data Science Academy.
+   
 
     Note:
     ---------------------------------------------------------------------
