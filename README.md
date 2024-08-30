@@ -10,7 +10,8 @@ This predict will not only teach you the valuable skill of setting up and consum
 
 In Figure 1 the solutions architecture of this predict is depicted. Below follows a brief description of each module in the system:
 
-## GitHub Template Repo: This dedicated EXPLORE template repo which houses all the content and instructions for a student to complete the Predict.
+ ``` 
+GitHub Template Repo: This dedicated EXPLORE template repo which houses all the content and instructions for a student to complete the Predict.
 
 ## AWS Lambda: A serverless compute instance responsible for multiple processing steps:
   * Stores the enquiry details within an AWS DynamoDB instance for later retrieval.
@@ -26,8 +27,8 @@ In Figure 1 the solutions architecture of this predict is depicted. Below follow
 ## AWS API Gateway: AWS service responsible for receiving enquiry details via an API call from the student webpage, and for passing these on to the internal lambda function.
 
 ## AWS Comprehend: An intelligent NLP service capable of characterising sentiment and extracting key-phrases from the ingested text. Used to detect topics within the received webpage enquiries.
-
-# Predict Instructions
+ ``` 
+## Predict Instructions
 
 The completion of the predict involves nine distinct steps which follow on from one another sequentially. This means that you have to completely finish a particular step before you can move on to the next one.
 
