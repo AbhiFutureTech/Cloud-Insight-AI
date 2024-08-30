@@ -1,16 +1,4 @@
 """
-    Function used to construct an intelligent response to a given input message. 
-    
-    
-    Author: Explore Data Science Academy.
-
-    Note:
-    ---------------------------------------------------------------------
-    The contents of this file should be added to a AWS  Lambda function 
-    created as part of the EDSA Cloud-Computing Predict. 
-    For further guidance around this process, see the README instruction 
-    file which sits at the root of this repo.
-    ---------------------------------------------------------------------
     
     Description: This function uses the `find_max_sentiment` and `key_phrase_finder` 
         functions to firstly extract the overwhelming sentiment of a message reported 
