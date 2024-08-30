@@ -13,20 +13,21 @@ In Figure 1 the solutions architecture of this predict is depicted. Below follow
  ``` 
 GitHub Template Repo: This dedicated EXPLORE template repo which houses all the content and instructions for a student to complete the Predict.
 
-## AWS Lambda: A serverless compute instance responsible for multiple processing steps:
-  * Stores the enquiry details within an AWS DynamoDB instance for later retrieval.
-  * Forwards the enquiry contents to AWS Comprehend to help formulate an intelligent response to the site visitor.
-  * Provides logic to formulate an intelligent response based on AWS Comprehend output.
-  * Upon successful completion of these tasks, invokes AWS SES to send emails to the website enquirer and an automated marking email address hosted by EDSA.
-  * AWS Amplify: Responsible for serving the static web content hosted in GitHub which becomes the basis of the student web page.
+ AWS Lambda: A serverless compute instance responsible for multiple processing steps:
 
-## Amazon DynamoDB: A NoSQL database responsible for storing enquiry details from individuals visiting the student webpage.
+   1.Stores the enquiry details within an AWS DynamoDB instance for later retrieval.
+   2.Forwards the enquiry contents to AWS Comprehend to help formulate an intelligent response to the site visitor.
+   3.Provides logic to formulate an intelligent response based on AWS Comprehend output.
+   4.Upon successful completion of these tasks, invokes AWS SES to send emails to the website enquirer and an automated marking email address hosted by EDSA.
+   5.AWS Amplify: Responsible for serving the static web content hosted in GitHub which becomes the basis of the student web page.
 
-##  Anazon SES: A code-driven email service responsible for returning an intelligent response to webpage visitors based upon their enquiries.
+Amazon DynamoDB: A NoSQL database responsible for storing enquiry details from individuals visiting the student webpage.
 
-## AWS API Gateway: AWS service responsible for receiving enquiry details via an API call from the student webpage, and for passing these on to the internal lambda function.
+Amazon SES: A code-driven email service responsible for returning an intelligent response to webpage visitors based upon their enquiries.
 
-## AWS Comprehend: An intelligent NLP service capable of characterising sentiment and extracting key-phrases from the ingested text. Used to detect topics within the received webpage enquiries.
+AWS API Gateway: AWS service responsible for receiving enquiry details via an API call from the student webpage, and for passing these on to the internal lambda function.
+
+AWS Comprehend: An intelligent NLP service capable of characterising sentiment and extracting key-phrases from the ingested text. Used to detect topics within the received webpage enquiries.
  ``` 
 ## Predict Instructions
 
