@@ -4,7 +4,7 @@
 
 In this predict you will make use of Python and AWS to create an intelligent data science portfolio website. At a high-level, the website will be hosted in a serverless manner on AWS; showcasing your amazing data science, machine learning and AI projects.
 
-![image](https://github.com/user-attachments/assets/f531546f-fe25-4cf0-874a-5136e8ebef90)
+![ezgif-ezgif com-optimize (1)](https://github.com/user-attachments/assets/cc58b960-7657-4d9b-b38a-3e14fc431dac)
 
 This predict will not only teach you the valuable skill of setting up and consuming AWS services to host a website, but it will also teach you how to use these services in creating an intelligent Natural Language Processing (NLP) service. This NLP solution will allow you to automatically populate and send intelligent emails to interested parties based on the messages they send to you through the website. For example, if a potential recruiter sees a particular portfolio project on your website that interests them and contacts you regarding the said project, it is possible to set up your NLP component to pick up what the tone and key phrases are in the recruiter's message. Some smart programming techniques can then be used to automatically send a response.
 
