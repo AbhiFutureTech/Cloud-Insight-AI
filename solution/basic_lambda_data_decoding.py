@@ -1,18 +1,4 @@
-"""
-    Initial AWS Lambda function is used to decode POST-request data received from the 
-    student portfolio website.
-    
-    Author: Explore Data Science Academy.
 
-    Note:
-    ---------------------------------------------------------------------
-    The contents of this file should be added to a AWS  Lambda function 
-    created as part of the EDSA Cloud-Computing Predict. 
-    For further guidance around this process, see the README instruction 
-    file which sits at the root of this repo.
-    ---------------------------------------------------------------------
-
-"""
 
 # Lambda dependencies
 import boto3    # Python AWS SDK
